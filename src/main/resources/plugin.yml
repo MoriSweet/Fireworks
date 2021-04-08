@@ -1,0 +1,6 @@
+name: Fireworks
+version: ${project.version}
+main: net.casheh.fireworks.Fireworks
+authors: [Casheh, Devindeboss, MoriSweet]
+commands:
+  fireworks:
