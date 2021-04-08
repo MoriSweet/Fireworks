@@ -16,6 +16,6 @@ public class EggThrow implements Listener {
         Location loc = e.getEgg().getLocation();
         loc.getWorld().spawnEntity(loc, EntityType.SLIME);
         loc.add(0, 5, 0).getBlock().setType(Material.ANVIL);
-
+        return;
     }
 }
